@@ -1029,7 +1029,7 @@ static void report_input_data(struct mxt540e_data *data)
 			}
 		}
 
-		tsp_pattern_tracking(i, data->fingers[i].x, data->fingers[i].y);
+		//tsp_pattern_tracking(i, data->fingers[i].x, data->fingers[i].y);
 
 
 		if (check_resume_err != 0) {

@@ -10,8 +10,8 @@ NAME = Yokohama
 # Comments in this file are targeted only to the developer, do not
 # expect to learn how to build the kernel reading this file.
 
-CKVERSION = -dag0.2
-CKNAME = Da_G
+CKVERSION = -hn0.1 
+CKNAME = HoloNote 
 EXTRAVERSION := $(EXTRAVERSION)$(CKVERSION)
 
 
