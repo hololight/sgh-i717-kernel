@@ -228,7 +228,7 @@ static int cFailbyPattenTracking = 0;
 static void report_input_data(struct mxt540e_data *data);
 static void Mxt540e_force_released(void);
 //static void TSP_forced_release_for_call(void);
-static int tsp_pattern_tracking(int fingerindex, s16 x, s16 y);
+//static int tsp_pattern_tracking(int fingerindex, s16 x, s16 y);
 static void TSP_forced_reboot(void);
 static int is_drawingmode = 0;
 
@@ -920,6 +920,7 @@ static void TSP_forced_reboot(void)
 
 /* To do forced calibration when ghost touch occured at the same point
     for several second.   Xtopher */
+/*
 static int tsp_pattern_tracking(int fingerindex, s16 x, s16 y)
 {
 	int i;
@@ -962,7 +963,7 @@ static int tsp_pattern_tracking(int fingerindex, s16 x, s16 y)
 	}
 	return ghosttouch;
 }
-
+*/
 
 
 static void report_input_data(struct mxt540e_data *data)
